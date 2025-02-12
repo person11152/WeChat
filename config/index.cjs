@@ -16,7 +16,7 @@ const USER_CONFIG = {
 
   PROVINCE: '山东',
   CITY: '临沂',
-  SWITCH:[
+  SWITCH:{
     /** 节假日 */
     // 下一休息日综合提醒, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     holidaytts: true,
@@ -28,7 +28,7 @@ const USER_CONFIG = {
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     birthdayMessage: true,
 
-  ],
+  },
 
   USERS: [
     {
