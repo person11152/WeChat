@@ -2,37 +2,21 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '亲爱的11, 早上好',
+    title: '早上好呀小珠宝宝',
     desc: `
-      **{{date.DATA}}**
-      
-      下个休息日：{{holidaytts.DATA}}
-      
-      ---
-      
-      城市：{{city.DATA}}
-      
-      天气：{{weather.DATA}}
-      
-      气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
-      
-      风向: {{wind_direction.DATA}}
-      
-      风级: {{wind_scale.DATA}}
-      
-      {{comprehensive_horoscope.DATA}}
-      
-      ---
-      
-      今天是我们相识的第{{love_day.DATA}}天
-      
-      {{birthday_message.DATA}}
-      
-      ---
-      
-      {{moment_copyrighting.DATA}}
-      
-      {{poetry_title.DATA}} {{poetry_content.DATA}}
+🗓️{{date.DATA}}
+
+今天是我们在一起的第{{love_day.DATA}}天，爱你❤️
+
+今日{{city.DATA}}天气☁️：{{weather.DATA}}
+温度🌡️: {{min_temperature.DATA}}-{{max_temperature.DATA}}
+风向：{{wind_direction.DATA}}
+风级：{{wind_scale.DATA}}
+湿度：{{shidu.DATA}}
+空气质量：{{aqi.DATA}}
+预防感冒提醒：{{ganmao.DATA}}
+下一休息日：{{holidaytts.DATA}}
+下一个心动日：{{birthday_message.DATA}}
     `
   },
   {
